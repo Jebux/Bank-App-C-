@@ -7,11 +7,7 @@ namespace Primera_Aplicacion
         List<BankAccount> BankAccounts = new List<BankAccount>();
         public Form1()
         {
-            InitializeComponent();
-            BankAccount bankAccount = new BankAccount("Pedro");
-            bankAccount.Saldo = 3500;
-            BankAccounts.Add(bankAccount);
-            BankAccountGrid.DataSource = BankAccounts;
+            InitializeComponent();           
         }
 
         private void retirarClick(object sender, EventArgs e)
@@ -19,7 +15,7 @@ namespace Primera_Aplicacion
             if (BankAccountGrid.SelectedRows.Count > 0 && AmountNum.Value > 0)
             {
                 BankAccount? selectedBankAccount = BankAccountGrid.SelectedRows[0].DataBoundItem as BankAccount;
-                selectedBankAccount.Saldo -= AmountNum.Value;
+                selectedBankAccount.Retirar(AmountNum.Value);
                 RefreshGrid();
                 AmountNum.Value = 0;
             }
@@ -28,10 +24,10 @@ namespace Primera_Aplicacion
 
         private void depositarClick(object sender, EventArgs e)
         {
-            if (BankAccountGrid.SelectedRows.Count > 0 && AmountNum.Value>0)
+            if (BankAccountGrid.SelectedRows.Count > 0 && AmountNum.Value > 0)
             {
                 BankAccount? selectedBankAccount = BankAccountGrid.SelectedRows[0].DataBoundItem as BankAccount;
-                selectedBankAccount.Saldo += AmountNum.Value;
+                selectedBankAccount.Depositar(AmountNum.Value);
                 RefreshGrid();
                 AmountNum.Value = 0;
             }

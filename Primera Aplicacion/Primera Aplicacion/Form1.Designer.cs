@@ -122,11 +122,9 @@
             AmountNum.Font = new Font("Segoe UI", 16F);
             AmountNum.Location = new Point(128, 244);
             AmountNum.Maximum = new decimal(new int[] { 9999999, 0, 0, 0 });
-            AmountNum.Minimum = new decimal(new int[] { 9999999, 0, 0, 0 });
             AmountNum.Name = "AmountNum";
             AmountNum.Size = new Size(183, 36);
             AmountNum.TabIndex = 8;
-            AmountNum.Value = new decimal(new int[] { 9999999, 0, 0, 0 });
             // 
             // inputName
             // 
