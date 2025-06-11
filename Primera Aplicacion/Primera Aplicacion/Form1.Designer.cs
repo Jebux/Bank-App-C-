@@ -36,10 +36,10 @@
             button1 = new Button();
             button2 = new Button();
             BankAccountGrid = new DataGridView();
-            numericUpDown1 = new NumericUpDown();
+            AmountNum = new NumericUpDown();
             inputName = new TextBox();
             ((System.ComponentModel.ISupportInitialize)BankAccountGrid).BeginInit();
-            ((System.ComponentModel.ISupportInitialize)numericUpDown1).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)AmountNum).BeginInit();
             SuspendLayout();
             // 
             // label1
@@ -117,13 +117,16 @@
             BankAccountGrid.Size = new Size(372, 202);
             BankAccountGrid.TabIndex = 7;
             // 
-            // numericUpDown1
+            // AmountNum
             // 
-            numericUpDown1.Font = new Font("Segoe UI", 16F);
-            numericUpDown1.Location = new Point(128, 244);
-            numericUpDown1.Name = "numericUpDown1";
-            numericUpDown1.Size = new Size(183, 36);
-            numericUpDown1.TabIndex = 8;
+            AmountNum.Font = new Font("Segoe UI", 16F);
+            AmountNum.Location = new Point(128, 244);
+            AmountNum.Maximum = new decimal(new int[] { 9999999, 0, 0, 0 });
+            AmountNum.Minimum = new decimal(new int[] { 9999999, 0, 0, 0 });
+            AmountNum.Name = "AmountNum";
+            AmountNum.Size = new Size(183, 36);
+            AmountNum.TabIndex = 8;
+            AmountNum.Value = new decimal(new int[] { 9999999, 0, 0, 0 });
             // 
             // inputName
             // 
@@ -139,7 +142,7 @@
             AutoScaleMode = AutoScaleMode.Font;
             ClientSize = new Size(742, 304);
             Controls.Add(inputName);
-            Controls.Add(numericUpDown1);
+            Controls.Add(AmountNum);
             Controls.Add(BankAccountGrid);
             Controls.Add(button2);
             Controls.Add(button1);
@@ -151,7 +154,7 @@
             Name = "Form1";
             Text = "Form1";
             ((System.ComponentModel.ISupportInitialize)BankAccountGrid).EndInit();
-            ((System.ComponentModel.ISupportInitialize)numericUpDown1).EndInit();
+            ((System.ComponentModel.ISupportInitialize)AmountNum).EndInit();
             ResumeLayout(false);
             PerformLayout();
         }
@@ -166,7 +169,7 @@
         private Button button1;
         private Button button2;
         private DataGridView BankAccountGrid;
-        private NumericUpDown numericUpDown1;
+        private NumericUpDown AmountNum;
         private TextBox inputName;
     }
 }

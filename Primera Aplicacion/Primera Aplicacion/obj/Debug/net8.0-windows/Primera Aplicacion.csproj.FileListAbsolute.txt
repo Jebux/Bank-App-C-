@@ -14,3 +14,20 @@ C:\Users\estudiante.upb\source\repos\Primera Aplicacion\Primera Aplicacion\obj\D
 C:\Users\estudiante.upb\source\repos\Primera Aplicacion\Primera Aplicacion\obj\Debug\net8.0-windows\Primera Aplicacion.pdb
 C:\Users\estudiante.upb\source\repos\Primera Aplicacion\Primera Aplicacion\obj\Debug\net8.0-windows\Primera Aplicacion.genruntimeconfig.cache
 C:\Users\estudiante.upb\source\repos\Primera Aplicacion\Primera Aplicacion\obj\Debug\net8.0-windows\ref\Primera Aplicacion.dll
+C:\Users\Usuario\source\repos\Bank-App-C-\Primera Aplicacion\Primera Aplicacion\bin\Debug\net8.0-windows\Primera Aplicacion.exe
+C:\Users\Usuario\source\repos\Bank-App-C-\Primera Aplicacion\Primera Aplicacion\bin\Debug\net8.0-windows\Primera Aplicacion.deps.json
+C:\Users\Usuario\source\repos\Bank-App-C-\Primera Aplicacion\Primera Aplicacion\bin\Debug\net8.0-windows\Primera Aplicacion.runtimeconfig.json
+C:\Users\Usuario\source\repos\Bank-App-C-\Primera Aplicacion\Primera Aplicacion\bin\Debug\net8.0-windows\Primera Aplicacion.dll
+C:\Users\Usuario\source\repos\Bank-App-C-\Primera Aplicacion\Primera Aplicacion\bin\Debug\net8.0-windows\Primera Aplicacion.pdb
+C:\Users\Usuario\source\repos\Bank-App-C-\Primera Aplicacion\Primera Aplicacion\obj\Debug\net8.0-windows\Primera_Aplicacion.Form1.resources
+C:\Users\Usuario\source\repos\Bank-App-C-\Primera Aplicacion\Primera Aplicacion\obj\Debug\net8.0-windows\Primera Aplicacion.csproj.GenerateResource.cache
+C:\Users\Usuario\source\repos\Bank-App-C-\Primera Aplicacion\Primera Aplicacion\obj\Debug\net8.0-windows\Primera Aplicacion.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\Usuario\source\repos\Bank-App-C-\Primera Aplicacion\Primera Aplicacion\obj\Debug\net8.0-windows\Primera Aplicacion.AssemblyInfoInputs.cache
+C:\Users\Usuario\source\repos\Bank-App-C-\Primera Aplicacion\Primera Aplicacion\obj\Debug\net8.0-windows\Primera Aplicacion.AssemblyInfo.cs
+C:\Users\Usuario\source\repos\Bank-App-C-\Primera Aplicacion\Primera Aplicacion\obj\Debug\net8.0-windows\Primera Aplicacion.csproj.CoreCompileInputs.cache
+C:\Users\Usuario\source\repos\Bank-App-C-\Primera Aplicacion\Primera Aplicacion\obj\Debug\net8.0-windows\Primera Aplicacion.sourcelink.json
+C:\Users\Usuario\source\repos\Bank-App-C-\Primera Aplicacion\Primera Aplicacion\obj\Debug\net8.0-windows\Primera Aplicacion.dll
+C:\Users\Usuario\source\repos\Bank-App-C-\Primera Aplicacion\Primera Aplicacion\obj\Debug\net8.0-windows\refint\Primera Aplicacion.dll
+C:\Users\Usuario\source\repos\Bank-App-C-\Primera Aplicacion\Primera Aplicacion\obj\Debug\net8.0-windows\Primera Aplicacion.pdb
+C:\Users\Usuario\source\repos\Bank-App-C-\Primera Aplicacion\Primera Aplicacion\obj\Debug\net8.0-windows\Primera Aplicacion.genruntimeconfig.cache
+C:\Users\Usuario\source\repos\Bank-App-C-\Primera Aplicacion\Primera Aplicacion\obj\Debug\net8.0-windows\ref\Primera Aplicacion.dll
